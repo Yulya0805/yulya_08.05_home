@@ -1,0 +1,46 @@
+body, ul {
+    margin: 0;
+    padding: o;
+}
+li {
+    list-style: none;
+}
+header {
+    border-bottom: 2px solid green;
+    padding: 15px 0;
+}
+#header-wrap {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header ul li a {
+    display: flex;
+    padding: 10px 15px;
+    background: #2547ad4b;
+    color: white;
+    margin: 5px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+}
+header ul li a:hover {
+    background: #786b59;
+    color: #ffe;
+}
+header ul {
+    display: flex;
+}
+#tree img {
+    max-width: 100px;
+}
+@media(max-width: 800px) {
+    header ul li, #tree {
+        width: 100%;
+        text-align: center;
+    }
+}
