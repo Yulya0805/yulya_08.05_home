@@ -120,7 +120,11 @@ Content style
     margin: 0 0 5px 0;
 }
 
-
+@media(max-width: 1060px){
+    #content-wrap{
+        margin: 0 15px;
+    }
+}
 
 
 
