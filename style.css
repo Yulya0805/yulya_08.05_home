@@ -121,19 +121,24 @@ Content style
 }
 
 @media(max-width: 1060px){
-    #content-wrap{
+    #content-wrap {
         margin: 0 15px;
     }
 }
 
 
 
-@media(max-width: 775px){
-    header ul{
+@media(max-width: 800px){
+    header ul, #content, #sidebar {
         width: 100%;
+        padding: 0 0 15px 0;
     }
     header ul li, #tree{
         width: 100%;
         text-align: center;
     }
+    .border{
+        min-height: 0;
+    }
+    
 }
